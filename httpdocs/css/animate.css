@@ -1407,10 +1407,14 @@
 }
 
 .fadeInUp {
-  -webkit-animation-name: fadeInUp;
+  
+-webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  animation-duration: 3s;
-
+  animation-duration: 4s;
+/*
+  animation: fadeInUp ease-out 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;*/
 }
 
 @-webkit-keyframes fadeInUpBig {
